@@ -32,7 +32,7 @@ def main():
 def run_test_sum_more_cosines():
     """ Tests the   sum_more_cosines   function. """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement this TEST function.
+    # DONE: 2. Implement this TEST function.
     #   It TESTS the  sum_more_cosines  function defined below.
     #   Include at least **   3   ** tests (we wrote one for you).
     #
@@ -58,6 +58,7 @@ def run_test_sum_more_cosines():
     print('--------------------------------------------------')
 
     # Test 1:
+
     expected = 0.13416  # This is APPROXIMATELY the correct answer.
     answer = sum_more_cosines(0, 3)
     print('Test 1 expected:', expected, '(approximately)')
@@ -67,15 +68,15 @@ def run_test_sum_more_cosines():
     # TO DO: 2 (continued).
     # Below this comment, add 2 more test cases of your own choosing.
     # ------------------------------------------------------------------
-    #Test 2:
+    # Test 2:
     expected = -1.77612
-    answer = sum_more_cosines(2,5)
+    answer = sum_more_cosines(2, 5)
     print('Test 2 Expected:', expected)
     print('       actual:  ', answer)
 
-    #Test 3
+    # Test 3
     expected = 1.8522
-    answer = sum_more_cosines(5,8)
+    answer = sum_more_cosines(5, 8)
     print('Test 3 Expected:', expected)
     print('       actual:  ', answer)
 
@@ -84,6 +85,7 @@ def run_test_sum_more_cosines():
     answer = sum_more_cosines(-4, 1)
     print('Test 4 Expected:', expected)
     print('       actual:  ', answer)
+
 
 def sum_more_cosines(m, n):
     """
@@ -166,6 +168,7 @@ def run_test_count_sines_from():
     answer = count_sines_from(3, 5)
     print('Test 5 expected:', expected)
     print('       actual:  ', answer)
+
 
 def count_sines_from(m, n):
     """
@@ -256,6 +259,7 @@ def run_test_count_sines_vs_cosines():
     answer = count_sines_vs_cosines(6)
     print('Test 5 expected:', expected)
     print('       actual:  ', answer)
+
 
 def count_sines_vs_cosines(m):
     """
