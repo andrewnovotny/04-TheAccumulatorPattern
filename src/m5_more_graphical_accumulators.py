@@ -346,7 +346,7 @@ def draw_lines_from_rectangles(rectangle1, rectangle2, n, window):
     line.color = rectangle1.outline_color
     line.attach_to(window)
     window.render(.1)
-    for k in range(n):
+    for k in range(n - 1):
         #line.move_by(-abs(r1center.x - rectangle1.corner_1.x), abs(r1center.y + rectangle1.corner_1.y))
         line = rg.Line(rg.Point(line.start.x - abs(r1center.x - rectangle1.corner_1.x),
                                 line.start.y + abs(r1center.y - rectangle1.corner_1.y)),
